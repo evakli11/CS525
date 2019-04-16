@@ -315,5 +315,5 @@ if __name__ == "__main__":
     del documents['lda_tfidf']
     del documents['tfidf']
 
-    documents.to_csv('processed_lyrics.csv')
+    documents.to_csv('data/processed_lyrics.csv')
 
