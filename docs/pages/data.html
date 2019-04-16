@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<style>
+		body{
+			font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+			background-color: white;
+			margin-left: 100px;
+			margin-right: 100px;
+			margin-bottom: auto;
+		}
+		p {
+			text-indent: 1cm
+			}
+		h1{
+		color:#330000;
+		}
+		</style>
+	</head>
+	<body>
+		<h1>Data</h1>
+
+		<p>
+			We planned to use part of the dataset found in Kaggle, by filtering those Hip-Hop songs. There are 
+			around 380,000+ lyrics in the original data set, and there will be about thousands Hip-Hop songs among 
+			them.
+		</p>
+		<p>
+			The structure is: 
+		</p>
+		<p>
+			[index]: the unique integer to tag each song, will be reassigned after filtering; 
+		</p>
+		<p>
+			[song]: string, the song’s name, words are connected by “-”;  
+		</p>
+		<p>
+			[year]: integer, the year when the song was released; 
+		</p>
+		<p>
+			[artist]: string, the artist’s name, words are connected by “-”;
+		</p>
+		<p>
+			[genre]: string, equals “Hip-Hop” after filtering; 
+		</p>
+		<p>
+			[lyrics]: string, the lyrics of each song, sepearted by lines, empty value will be deleted from the 
+			filtered dataset.  
+		</p>
+		<p>
+			An example screenshot of the dataset: 
+		</p>
+		<img src = images/datasample.png width="60%"> </img>
+
+	</body>
+</html>
