@@ -85,18 +85,20 @@ div.tab button {
 	
 	h1{
 /* 		color: white; */
-		margin:0;
-		position: relative;
-        	color: yellow;
+/* 		margin:0; */
+		display: inline-block;
+    		font-family: 'Chalkduster';
+    		font-size: 65px;
+    		position: relative; 
 	}
 	
 	h1:before{
-		margin:0
-		content: attr(text);
-		position: absolute;
-		z-index: 10;
-		color:pink;
-		-webkit-mask:linear-gradient(to bottom, red, transparent);
+		content: attr(data-text);  
+		color: green;  
+		position: absolute;  
+		left: 0;  
+		z-index: 2;
+		-webkit-mask-image: -webkit-gradient(linear, 0 0, 0 bottom, from(#ff0000), to(rgba(0, 0, 255, 0)));
     	}
 	
 	div.center iframe{
