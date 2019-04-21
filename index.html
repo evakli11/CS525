@@ -89,16 +89,17 @@ div.tab button {
 		display: inline-block;
     		font-family: 'Chalkduster';
     		font-size: 65px;
-    		position: relative; 
+    		position: relative;
+		color:yellow
 	}
 	
-	h1[text]::after{
+	h1:before{
 		content: attr(data-text);  
 		color: green;  
 		position: absolute;  
 		left: 0;  
 		z-index: 2;
-		-webkit-mask-image: -webkit-gradient(linear, 0 0, 0 bottom, from(#ff0000), to(rgba(0, 0, 255, 0)));
+        	-webkit-mask:linear-gradient(to left, red, transparent );
     	}
 	
 	div.center iframe{
