@@ -107,18 +107,17 @@ pre {
 
 <div id="Proposed Method" class="tabcontent">
   <h2>Proposed method: "xxxx"</h2>
-<!-- 	<p> The idea is to apply a classification model before a linear regression model. 
-		The classification model is used to predict whether or not a visit will generate revenue. 
-		If a visit is predicted as non-spender, the sample will not enter our regression model and automatically predict a zero revenue. 
-		By doing this, the large number of zero-revenue samples will be filterd. 
-		We trained the classifiers and regression models separately. 
-		For classification, we applied undersampling on the training set before fitting in models. 
-		We performed Logistic Regression, Decision Tree, KNN and Support Vector Machine on the training set separately 
-		and choose the algorithm with the best performance. 
-		For regression, we applied the models we mentioned in the state-of-the-art section. 
-		The Pre-classified Regression Models were implemented using Scikit-learn in Python.
+	<p> 
+		Our proposed system combines the knowledge from information retrieval, which limits the training data related to users' requirements, into deep neural network. 	
 	</p>
-	<img src = "images/Pre-classified_Regression.png" width="80%" height="auto"/> -->
+	<img src = "images/workflow.png" width="80%" height="auto"/>
+	<p>
+		The model can be divided into two parts. The first part is to obtain training set of lyrics through skills related to NLP and information retrieval. For each 
+		rap lyrics in the collection, we will do keywords selection by tf-idf, TextRank and topic modeling method LDA (Latent Dirichlet Allocation) to extract keywords, 
+		and sentimental analysis with existing tools such as NLTK to label the sentiment (negative, neural or positive) of it. So that for the feature selection part, 
+		we will record the keywords and sentiment. Then, we plan to adopt tired inverted index to index the lyric documents in collection. For the second part, we need 
+		to train a LSTM model to generate new rap lyrics. The training set is collected from the whole dataset through the query from users.  
+	</p>
 </div>
 
 <div id="Training Data Filter" class="tabcontent">
