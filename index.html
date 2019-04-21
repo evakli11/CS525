@@ -86,15 +86,14 @@ div.tab button {
 	h1{
 /* 		color: white;
 		margin:0; */
-		position: absolute;
-		z-index: 10;
+		position: relative;
         	color: yellow;
 	}
 	
 	h1:before{
 		content: attr(text);
 		position: absolute;
-		z-index: 10;
+/* 		z-index: 10; */
 		color:pink;
 		-webkit-mask:linear-gradient(to bottom, red, transparent);
     	}
@@ -122,7 +121,7 @@ div.tab button {
 		<a href="https://github.com/evakli11" class="fa fa-github" target="_blank"></a>
 		
 		<div class="title" style="white-space:nowrap; background-image: url('pages/images/banner.jpg'); background-position: right center;">
-			<center><h1 text='Raper Maker'>Rapper Maker</h1></center>
+			<center><h1 text='Raper Maker' style="font-family:'Chalkduster';font-size:65px;">Rapper Maker</h1></center>
 <!-- 			<span><b>subtitle</b></span> -->
 			<div class="tab">
 			<button class="tablinks active" onclick="openTab(event, 'Home')" id="defaultOpen"><b>Home</b></button>
