@@ -93,17 +93,26 @@ pre {
 <div class="tab">
   <button class="tablinks" onclick="openTab(event, 'State-of-the-art')" id="defaultOpen"><b>State-of-the-art</b></button>
   <button class="tablinks" onclick="openTab(event, 'Proposed Method')"><b>Proposed Method</b></button>
-  <button class="tablinks" onclick="openTab(event, 'Training Data Filter')"><b>Training Data Filter</b></button>
-  <button class="tablinks" onclick="openTab(event, 'Lyrics Generator')"><b>Lyrics Generator</b></button>
 </div>
 
 <div id="State-of-the-art" class="tabcontent">
 	<h2>State-of-the-art</h2>
+	<p>	
+		xxxxx
+	</p>
 	<h3>Song Lyrics Generator</h3>
-	<p>	xxxxx
+	<p>	
+		Song Lyrics Generator generates lyrics according to user's given keywords.
 	</p>
 	<h3>DeepBeat</h3>
-	<p>xxxx
+	<p>
+		DeepBeat get hints from users and then provide existing lyrics related to these hints from different existing songs. 
+		They proposed an information retrieval approach to choose training set and employed 
+		a multi-layer fully connected neural network and RankSVM algorithm to predict the next line [7]. 
+	</p>
+	<p>	
+		Compared with existing rap lyrics generators, our product tends to generate new lyrics based on historical works that 
+		selected by our information retrieval functions corresponding to the keywords and sentimental preferences provided by users. 
 	</p>
 	
 </div>
@@ -113,7 +122,7 @@ pre {
 	<p> 
 		Our proposed system combines the knowledge from information retrieval, which limits the training data related to users' requirements, into deep neural network. 	
 	</p>
-	<img src = "images/workflow.png" width="90%" height="auto"/>
+	<img src = "images/workflow.png" width="100%" height="auto"/>
 	<p>
 		The model can be divided into two parts. The first part is to obtain training set of lyrics through skills related to NLP and information retrieval. For each 
 		rap lyrics in the collection, we will do keywords selection by tf-idf, TextRank and topic modeling method LDA (Latent Dirichlet Allocation) to extract keywords, 
