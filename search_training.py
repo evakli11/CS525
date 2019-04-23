@@ -31,7 +31,7 @@ class search():
         for word in words:
             if word not in STOP_WORDS:
                 word = WordNetLemmatizer().lemmatize(word, pos='v')
-                tmp = self.glove_model.most_similar(positive=word, topn=5)
+                tmp = self.glove_model.most_similar(positive=word, topn=2)
                 tmp = list(set([stemmer.stem(WordNetLemmatizer().lemmatize(item[0], pos='v')) for item in tmp if
                                 item[0] not in STOP_WORDS]))
                 tmp.append(word)
