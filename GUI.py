@@ -19,8 +19,8 @@ class App:
         self.sent.current(0)
         self.sent.place(x=220,y=153)
 
-        self.extend = tk.Button(window, text="Generate", width=15, height=2, command=self.insert_point)
-        self.extend.place(x=170,y=240)
+        self.extend1 = tk.Button(window, text="Generate", width=15, height=2, command=self.insert_point)
+        self.extend1.place(x=170,y=240)
 
         self.label3 = tk.Label(window, text='Generated Lyrics:', font=('Helvetica', 14), width=15, height=2).place(x=170,y=280)
 
@@ -28,7 +28,13 @@ class App:
         self.lyric = tk.Text(window,width=70, height=30, bg = '#FEF5E7',state='disabled')
         self.lyric.place(x=0,y=320)
 
+	# self.extend2 = tk.Button(window, text="Download MP3", width=15, height=2, command=self.download)
+        # self.extend2.place(x=170, y=650)
+
         self.search = st.search()
+
+   
+    # def download(self):
 
 
     def insert_point(self):
@@ -44,6 +50,7 @@ class App:
 
 
         self.lyric.config(state='normal')
+	self.lyric.delete("1.0", "end")
         self.lyric.insert('insert', sentiments)
         self.lyric.config(state='disabled')
 
