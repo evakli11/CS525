@@ -4,6 +4,9 @@ https://evakli11.github.io/CS525/
 # Team member: 
 Chuchen Dai, Guangxin Hu, Mengdi Li, Pengyi Ye
 
+# Model design
+![image](http://github.com/evakli11/readme_add_pic/raw/master/pages/images/workflow.png)
+
 # How to setup:
 1. download the extra dataset from google drive(the links are put below).
 2. download or clone the github respository.
