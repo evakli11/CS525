@@ -9,7 +9,7 @@ Chuchen Dai, Guangxin Hu, Mengdi Li, Pengyi Ye
 
 # How to setup:
 1. download or clone the github respository.
-2. download the extra dataset from google drive(the links are put below) and place them in your local respostory file.
+2. download the extra dataset from google drive(the links are put below) and place them in your local respository file.
 3. run the GUI.py.
 
 # Datasets：
