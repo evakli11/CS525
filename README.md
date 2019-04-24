@@ -8,9 +8,19 @@ Chuchen Dai, Guangxin Hu, Mengdi Li, Pengyi Ye
 ![workflow](workflow.png)
 
 # How to setup:
-1. download or clone the github respository.
-2. download the extra dataset from google drive(the links are put below) and place them in your local respository file.
-3. run the GUI.py.
+#### 1. Start with the Front-end
+
+#### 2.Change parameters in files
+
+#### 1. download or clone the github respository.
+#### 2. download the extra dataset from google drive(the links are put below) and place them in your local respository file.
+```
+gensim_glove_vectors.txt
+```
+#### 3. run the GUI.py.
+```gui
+Python GUI.py
+```
 
 # Datasets：
 some required datasets haven been stored in the respository, while some large datasets are store on google drive. 
