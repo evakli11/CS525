@@ -1,3 +1,9 @@
+"""
+Created on Mon Apr 22
+
+@author: Bernie Ye
+"""
+
 import pyttsx3
 import subprocess
 import threading
