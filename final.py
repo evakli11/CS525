@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Mon Apr 22 20:12:04 2019
+Created on Mon Apr 22 
 
-@author: pengyiye
+@author: Bernie Ye
 """
 
 import pronouncing
