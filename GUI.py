@@ -1,3 +1,8 @@
+"""
+Created on Tue Apr 23
+
+@author: Bernie Ye
+"""
 from tkinter import *
 import search_training as st
 import tkinter.ttk as ttk
