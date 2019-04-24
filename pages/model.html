@@ -72,10 +72,9 @@ div.tab button.active {
 		to {opacity: 1;}
 	}
 h2{
-		color:#330000;
+		color:#3b3d4b;
 	}
 h3{
-		color:#3b3d4b;
 		text-indent: 1cm
 	}
 p {
@@ -101,7 +100,7 @@ pre {
 </div>
 
 <div id="State-of-the-art" class="tabcontent">
-   <h2 style="text-align:center;>State of the art:</h2>
+   <h2 style="text-align:center;">State of the art:</h2>
 	<p>	
 		There are some existing rap lyrics generator tools now, which can be divided into two classes. 
 	</p>
@@ -125,18 +124,23 @@ pre {
 </div>
 
 <div id="Proposed Method" class="tabcontent">
-  <h2 style="text-align:center;>Proposed method:</h2>
+  <h2 style="text-align:center;">Proposed method:</h2>
 	<p> 
 		Our proposed system combines the knowledge from information retrieval, which limits the training data related to users' requirements, into deep neural network. 	
 	</p>
 	<img src = "images/workflow.png" width="100%" height="auto"/>
 	<p>
-		The model can be divided into two parts. The first part is to obtain training set of lyrics through skills related to NLP and information retrieval. For each 
+		The model can be divided into two parts. 
+	</p>
+	<p> The first part is to obtain training set of lyrics through skills related to NLP and information retrieval. For each 
 		rap lyrics in the collection, we will do keywords selection by tf-idf, TextRank and topic modeling method LDA (Latent Dirichlet Allocation) to extract keywords, 
 		and sentimental analysis with existing tools such as NLTK to label the sentiment (negative, neural or positive) of it. So that for the feature selection part, 
-		we will record the keywords and sentiment. Then, we plan to adopt tired inverted index to index the lyric documents in collection. For the second part, we need 
-		to train a LSTM model to generate new rap lyrics. The training set is collected from the whole dataset through the query from users.  
+		we will record the keywords and sentiment. Then, we plan to adopt tired inverted index to index the lyric documents in collection. 
 	</p>
+	<p>
+		For the second part, we need to train a LSTM model to generate new rap lyrics. The training set is collected from the whole dataset through the query from users.  
+	</p>
+	
 </div>
 
 
