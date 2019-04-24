@@ -23,6 +23,6 @@ Python GUI.py
 ```
 
 # Datasets：
-some required datasets haven been stored in the respository, while some large datasets are store on google drive. 
+some required datasets haven been stored in the respository, while some large datasets are stored on google drive. 
 pretrained Glove word vector: https://drive.google.com/open?id=1BMALOp7yQUEA5fXMKF2RpTZg6Aa5Ts-l
 Preprocessed data: https://drive.google.com/open?id=1lxiS2m1EcXTenuXmqa1ihugcSscq5RkA
