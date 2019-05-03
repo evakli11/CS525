@@ -1,8 +1,5 @@
 # project pages:
-https://evakli11.github.io/CS525/
-
-# Team member: 
-Chuchen Dai, Guangxin Hu, Mengdi Li, Pengyi Ye
+https://evakli11.github.io/RapMaker/
 
 # Model design
 ![workflow](workflow.png)
