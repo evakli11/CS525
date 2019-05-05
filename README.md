@@ -1,5 +1,5 @@
 # project pages:
-https://evakli11.github.io/RapMaker/
+https://evakli11.github.io/CS525/
 
 # Model design
 ![workflow](workflow.png)
